@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 427
   Top = 165
   Caption = 'Form1'
-  ClientHeight = 493
-  ClientWidth = 587
+  ClientHeight = 509
+  ClientWidth = 645
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -17,8 +17,8 @@ object Form1: TForm1
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 587
-    Height = 493
+    Width = 645
+    Height = 509
     Margins.Left = 5
     Margins.Top = 5
     Margins.Right = 5
@@ -27,12 +27,10 @@ object Form1: TForm1
     Color = clWhite
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = -8
-    ExplicitTop = 24
-    ExplicitWidth = 569
-    ExplicitHeight = 333
+    ExplicitWidth = 587
+    ExplicitHeight = 493
     object Label1: TLabel
-      Left = 78
+      Left = 94
       Top = 26
       Width = 108
       Height = 35
@@ -45,7 +43,7 @@ object Form1: TForm1
       ParentFont = False
     end
     object Label2: TLabel
-      Left = 386
+      Left = 426
       Top = 26
       Width = 113
       Height = 35
@@ -58,9 +56,9 @@ object Form1: TForm1
       ParentFont = False
     end
     object DateTimePicker1: TDateTimePicker
-      Left = 38
+      Left = 360
       Top = 102
-      Width = 227
+      Width = 253
       Height = 31
       BevelKind = bkFlat
       BiDiMode = bdLeftToRight
@@ -76,9 +74,9 @@ object Form1: TForm1
       TabOrder = 0
     end
     object DateTimePicker2: TDateTimePicker
-      Left = 328
+      Left = 38
       Top = 102
-      Width = 227
+      Width = 243
       Height = 31
       BevelKind = bkFlat
       BiDiMode = bdLeftToRight
@@ -96,8 +94,8 @@ object Form1: TForm1
     object GroupBox1: TGroupBox
       AlignWithMargins = True
       Left = 6
-      Top = 288
-      Width = 575
+      Top = 304
+      Width = 633
       Height = 199
       Margins.Left = 5
       Margins.Top = 5
@@ -117,38 +115,25 @@ object Form1: TForm1
       ParentColor = False
       ParentFont = False
       TabOrder = 2
+      ExplicitTop = 288
+      ExplicitWidth = 575
       object Labe_result: TLabel
-        Left = 32
-        Top = 81
-        Width = 19
-        Height = 44
+        Left = 31
+        Top = 84
+        Width = 25
+        Height = 58
         Caption = '0'
         Font.Charset = ANSI_CHARSET
         Font.Color = clRed
-        Font.Height = -37
+        Font.Height = -48
         Font.Name = 'Roboto Cn'
         Font.Style = []
         ParentFont = False
       end
     end
-    object Button1: TButton
-      Left = 38
-      Top = 186
-      Width = 355
-      Height = 74
-      Caption = 'Calcul '
-      Font.Charset = ANSI_CHARSET
-      Font.Color = clWindowText
-      Font.Height = -24
-      Font.Name = 'Traditional Arabic'
-      Font.Style = [fsBold]
-      ParentFont = False
-      TabOrder = 3
-      OnClick = Button1Click
-    end
     object Button2: TButton
-      Left = 424
-      Top = 184
+      Left = 482
+      Top = 185
       Width = 131
       Height = 74
       Caption = 'Clear '
@@ -158,8 +143,23 @@ object Form1: TForm1
       Font.Name = 'Tahoma'
       Font.Style = []
       ParentFont = False
-      TabOrder = 4
+      TabOrder = 3
       OnClick = Button2Click
+    end
+    object Button3: TButton
+      Left = 38
+      Top = 184
+      Width = 355
+      Height = 74
+      Caption = 'Calcul '
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -27
+      Font.Name = 'Roboto Cn'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 4
+      OnClick = Button3Click
     end
   end
 end
